@@ -1,0 +1,60 @@
+body{
+    background-color: turquoise;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    padding: 6px 7%;
+    background-color: white;
+    user-select: none;
+}
+
+.main-container{
+    display: flex;
+    align-content: center;
+}
+
+.main-logo{
+    flex-grow: 1;
+}
+
+.logo>p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 29px;
+    color: #2c3e50;
+    font-family: 'Akaya Kanadaka', Arial, Helvetica, sans-serif;
+}
+.logo>p>span{
+    color: brown;
+    font-size: 33px;
+    font-family: 'Sofia',Arial, Helvetica, sans-serif;
+}
+
+.logo>p, .child>p {
+    cursor: pointer;
+}
+
+.child{
+    margin: auto;
+}
+
+.child>p{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px 15px;
+    /* background-color: cadetblue; */
+    /* margin: 20px auto; */
+    font-family: 'Acme',Arial, Helvetica, sans-serif;
+}
+.c1>p{
+    border-bottom: 2px dotted;
+}
+
+.c3>p{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
